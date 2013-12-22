@@ -11,6 +11,9 @@
         "jade": "*",
         "less-middleware": "*"
     },
+    "engines": {
+        "node": "0.10.x"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ali-asgar/rushil-node-blog.git"
