@@ -1,11 +1,17 @@
 extends layout
 
 block content
+    include _navbar
+    .alert.alert-dismissable
+    include _carousel
     .container
-        include _navbar
-        .alert.alert-dismissable
-        include _jumbo
+        //include _jumbo
         include _about
         include _portfolio
+        include _demo_reel
+        include _projects
         include _resume
         include _contact
+
+        br
+        hr
