@@ -1,17 +1,26 @@
 @import "bootstrap/yeti";
 @import "elements.less";
 
+@header-bg:               darken(@body-bg, 50%);
+@main-header-color:       darken(@text-color, 10%);
+
 .justify {
   text-align: justify;
 }
 
 .sub-header {
   font-size: 24px;
-  color: #727171;
+  color: lighter(@brand-primary, 10%);
 }
 
-.dark-background {
-//  background-color: #212427;
-//  background: linear-gradient(#212427, #272b30);
-  .gradient(#212427, #272b30, #212427);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500);
+.main-header {
+  color: @main-header-color;
+  font-family: 'Alegreya Sans SC';
+  font-size: @font-size-h2;
+  font-weight: 100;
+}
+
+.header-background {
+  .gradient(@header-bg, @body-bg, @header-bg);
 }
