@@ -11,7 +11,7 @@ var qs = require('querystring');
 exports.index = function (req, res) {
 
     var params = {
-        s: 300
+        s: 896
     };
 
     res.render('index', {
