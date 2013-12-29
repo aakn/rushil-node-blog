@@ -1,4 +1,4 @@
-/* globals process */
+/* globals process:true, require:true */
 /**
  * Module dependencies.
  */
@@ -10,7 +10,6 @@ var path = require('path');
 var less = require('less-middleware');
 
 var app = express();
-var bootstrapPath = path.join(__dirname, 'node_modules', 'bootstrap');
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -23,7 +22,6 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here'));
 app.use(express.session());
-app.use('/img', express['static'](path.join(bootstrapPath, 'img')));
 app.use(app.router);
 app.use(less({
     root: path.join(__dirname, 'public'),
@@ -34,7 +32,6 @@ app.use(less({
     debug: true
 }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/js', express.static(path.join(bootstrapPath, 'js')));
 
 // development only
 if ('development' === app.get('env')) {
