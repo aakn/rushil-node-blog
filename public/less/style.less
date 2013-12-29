@@ -2,14 +2,13 @@
 @import "lib/elements";
 @import "variables";
 
-.justify {
-  text-align: justify;
-}
 
 .sub-header {
   font-size: 24px;
   color: @brand-primary;
 }
+
+// Main Header
 
 .main-header {
   color: @main-header-color;
@@ -27,3 +26,18 @@
   .gradient(@main-header-bg, @body-bg, @main-header-bg);
 }
 
+
+// About page
+
+.width100 {
+  width: 100%;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.about {
+  .justify;
+  padding-top: @about-padding-top;
+}
