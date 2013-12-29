@@ -10,7 +10,7 @@ var qs = require('querystring');
 function init(app) {
 
 
-    exports.index = function (req, res) {
+    app.get('/', function(req, res) {
 
         var params = {
             s: 896
@@ -23,7 +23,7 @@ function init(app) {
                 secondary: getImageSrc('aliroks@gmail.com', params)
             }
         });
-    };
+    });
 
     /**
      *
