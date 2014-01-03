@@ -3,11 +3,11 @@
  * GET home page.
  */
 
-"use strict";
 var crypto = require('crypto');
 var qs = require('querystring');
 
 function init(app) {
+    "use strict";
 
 
     app.get('/', function(req, res) {
@@ -20,7 +20,7 @@ function init(app) {
             title: 'Rushil Kekre',
             src: {
                 main: getImageSrc('rushil.kekre@outlook.com', params),
-                secondary: getImageSrc('aliroks@gmail.com', params)
+                secondary: getImageSrc(null, params)
             }
         });
     });
@@ -29,7 +29,7 @@ function init(app) {
      *
      * @param {String} email
      * @param {object} params
-     * @param {boolean} [doNotCache] Default = True if env is dev. If set to true, adds a timestamp to the url to prevent browser from using cached image
+     * @param {boolean} [doNotCache] Default = false. If set to true, adds a timestamp to the url to prevent browser from using cached image
      * @returns {string} the image source
      */
     function getImageSrc(email, params, doNotCache) {
@@ -38,7 +38,7 @@ function init(app) {
             return null;
         }
 
-        if (doNotCache || app.get('env') === 'development') {
+        if (doNotCache) {
             params.current_time = new Date().getTime();
         }
 
