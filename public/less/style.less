@@ -1,7 +1,7 @@
 @import "lib/bootstrap/yeti";
+@import "lib/font-awesome/font-awesome";
 @import "lib/elements";
 @import "variables";
-
 
 .sub-header {
   font-size: 24px;
@@ -26,8 +26,7 @@
   .gradient(@main-header-bg, @body-bg, @main-header-bg);
 }
 
-
-// About page
+// About section
 
 .width100 {
   width: 100%;
@@ -40,4 +39,13 @@
 .about {
   .justify;
   padding-top: @about-padding-top;
+}
+
+// Project section
+
+.project-thumbnail {
+  margin-top: @project-thumbnail-margin-top;
+  a img {
+    margin: @project-thumbnail-img-margin;
+  }
 }
