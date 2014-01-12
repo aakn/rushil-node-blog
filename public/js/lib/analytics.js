@@ -13,5 +13,5 @@
     m.parentNode.insertBefore(a, m);
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-46751857-1', 'rushil.herokuapp.com');
+ga('create', 'UA-46751857-1', 'rushilkekre.com');
 ga('send', 'pageview');
