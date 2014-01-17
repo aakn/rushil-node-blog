@@ -1,13 +1,14 @@
-/* globals process:true, require:true */
+/* globals process:true, require:true, console:true */
 /**
  * Module dependencies.
  */
 
 var express = require('express');
 var routes = require('./routes/index');
-var http = require('http');
 var path = require('path');
 var less = require('less-middleware');
+var minify = require('express-minify');
+var getsmart = require('getsmart-js');
 
 var app = express();
 
@@ -15,22 +16,35 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
+
+
 app.use(express.logger('dev'));
+app.use(getsmart({
+    compress: true,
+    isProduction: false,
+    src: path.join(__dirname + '/public')
+}));
+app.use(express.compress());
+app.use(minify());
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here --- my secret'));
 app.use(express.session());
-app.use(app.router);
 app.use(less({
     root: path.join(__dirname, 'public'),
     src: '/less',
     paths: ['/less/bootstrap'],
     dest: '/css',
-    force: true,
-    debug: true
+    compress: true,
+    debug: true,
+    yuicompress: true,
+    optimization: 2
 }));
-app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(app.router);
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: 86400000 }));
+
 
 // development only
 if ('development' === app.get('env')) {
@@ -39,6 +53,4 @@ if ('development' === app.get('env')) {
 
 routes(app);
 
-http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
-});
+app.listen(app.get('port'));
