@@ -4,7 +4,9 @@
     "description": "a basic website for rushil",
     "private": true,
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "restart": "echo 'restarting'",
+        "stop": "echo 'stopping'"
     },
     "dependencies": {
         "express": "~3.4.7",
