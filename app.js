@@ -8,7 +8,7 @@ var routes = require('./routes/index');
 var path = require('path');
 var less = require('less-middleware');
 var minify = require('express-minify');
-var getsmart = require('getsmart-js');
+//var getsmart = require('getsmart-js');
 
 var app = express();
 
@@ -19,11 +19,11 @@ app.set('view engine', 'jade');
 
 
 //app.use(express.logger('dev'));
-app.use(getsmart({
-    compress: true,
-    isProduction: false,
-    src: path.join(__dirname + '/public')
-}));
+//app.use(getsmart({
+//    compress: true,
+//    isProduction: false,
+//    src: path.join(__dirname + '/public')
+//}));
 app.use(express.compress());
 app.use(minify());
 app.use(express.json());
