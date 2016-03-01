@@ -6,7 +6,7 @@
 var express = require('express');
 var routes = require('./routes/index');
 var path = require('path');
-// var less = require('less-middleware');
+var less = require('less-middleware');
 var minify = require('express-minify');
 //var getsmart = require('getsmart-js');
 
@@ -31,16 +31,16 @@ app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here --- my secret'));
 app.use(express.session());
-// app.use(less({
-//     root: path.join(__dirname, 'public'),
-//     src: '/less',
-//     paths: ['/less/bootstrap'],
-//     dest: '/css',
-//     compress: true,
-//     debug: true,
-//     yuicompress: true,
-//     optimization: 2
-// }));
+app.use(less({
+    root: path.join(__dirname, 'public'),
+    src: '/less',
+    paths: ['/less/bootstrap'],
+    dest: '/css',
+    compress: true,
+    debug: true,
+    yuicompress: true,
+    optimization: 2
+}));
 
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 86400000 }));
