@@ -24,23 +24,23 @@ app.set('view engine', 'jade');
 //    isProduction: false,
 //    src: path.join(__dirname + '/public')
 //}));
-app.use(express.compress());
-app.use(minify());
+// app.use(express.compress());
+// app.use(minify());
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here --- my secret'));
 app.use(express.session());
-app.use(less({
-    root: path.join(__dirname, 'public'),
-    src: '/less',
-    paths: ['/less/bootstrap'],
-    dest: '/css',
-    compress: true,
-    debug: true,
-    yuicompress: true,
-    optimization: 2
-}));
+// app.use(less({
+//     root: path.join(__dirname, 'public'),
+//     src: '/less',
+//     paths: ['/less/bootstrap'],
+//     dest: '/css',
+//     compress: true,
+//     debug: true,
+//     yuicompress: true,
+//     optimization: 2
+// }));
 
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 86400000 }));
