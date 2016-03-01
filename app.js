@@ -18,14 +18,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 
-//app.use(express.logger('dev'));
+app.use(express.logger('dev'));
 //app.use(getsmart({
 //    compress: true,
 //    isProduction: false,
 //    src: path.join(__dirname + '/public')
 //}));
-// app.use(express.compress());
-// app.use(minify());
+app.use(express.compress());
+app.use(minify());
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
