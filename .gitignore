@@ -2,5 +2,5 @@ node_modules/
 .idea
 *.iml
 .DS_Store
-*.css
+public/css/**/*.css
 !*font.css
