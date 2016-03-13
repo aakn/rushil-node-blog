@@ -12,6 +12,7 @@ body{
 
 #light{
 	font-weight: 400;
+	/*font-weight:bold;*/
 }
 
 #heavy{
@@ -104,9 +105,9 @@ body{
 #about-content h1{
 	font-family: 'Cambay',sans-serif;
 	font-weight: 700;
-	font-size: 32pt;
+	font-size: 34pt;
 	letter-spacing: -1pt;
-	line-height: 32pt;
+	line-height: 28pt;
 	text-align: right;
 	margin-top: 0px;
 }
