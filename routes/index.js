@@ -8,23 +8,6 @@ var qs = require('querystring');
 
 function init(app) {
     "use strict";
-
-
-    app.get('/', function(req, res) {
-
-        var params = {
-            s: 896
-        };
-
-        res.render('index', {
-            title: 'Rushil Kekre',
-            src: {
-                main: getImageSrc('rushil.kekre@outlook.com', params),
-                secondary: getImageSrc(null, params)
-            }
-        });
-    });
-
     /**
      *
      * @param {String} email
