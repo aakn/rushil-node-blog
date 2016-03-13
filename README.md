@@ -13,6 +13,8 @@ Getting the server up and running
 
 	```
 	git clone https://github.com/aakn/rushil-node-blog.git
+    heroku login
+    heroku git:remote -a rushil
 	```
 * cd into the directory where you cloned the code and run these commands
 
@@ -20,9 +22,10 @@ Getting the server up and running
 	npm install
     npm start
     ```
-* Learn more about jade at [jade syntax docs](http://naltatis.github.io/jade-syntax-docs/)
-* Start editing index.jade and layout.jade (located in /views)
-* To push your changes to the server
+* In the future if you've got to test your changes, make the changes, run `npm start` in cmd, and then hit `http://localhost:3000/`
+* Once you've verified your changes, you can push the changes to the server
+    1. first you'll need to commit the changes. http://git-scm.com/docs/gittutorial
+    2. Push your changes
 
     ```
     git push
