@@ -22,7 +22,7 @@
 
     <!--Font CSS-->
     <link href='https://fonts.googleapis.com/css?family=Cambay:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
 
     <!--Glyph CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -71,13 +71,13 @@
                         <a class="page-scroll" href="resume.html">RESUME</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="work.html">WORK</a>
+                        <a class="page-scroll" href="#work">WORK</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">ABOUT</a>
+                        <a class="page-scroll" href="about.html">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">CONTACT</a>
+                        <a class="page-scroll" href="about.html#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -86,80 +86,73 @@
         <!-- /.container -->
     </nav>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div id="imagewrap">
+
+    <!-- WORK SECTION -->
+    <section id="work" class="work-section">
+        <div id="work-intro">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-lg-offset-3">    
+                    <!-- <div class="col-lg-2">
+                        <h1>my work</h1>
+                    </div> -->
+                    <div class="col-lg-12" id="desc-text">
+                    A collection of my work so far. I will keep updating this page periodically as I make progress on my projects, or complete them.
+                    The work included here is stuff I have worked on in grad school, personal projects, or simple RnD tests to check out new features or play with ideas.
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row" id="about-content">
-                <div class="col-lg-2">
-                    <h1>ABOUT ME<span id="light"><!-- about me --><span></h1><br> 
-                </div>
-                <div class="col-lg-9" id="about-text">
-                    Hey there! I'm Rushil Kekre, a FX Artist + CG Developer, and
-                    I'm currently a graduate student studying at Texas A&M University in the Department of Visualization a.k.a The Viz Lab. <br><br>
-I've been interested in the field of Animation and Visual Effects for many years now. I began taking an interest in this field at the age of 13. The third Harry Potter movie was due to release back then, and I remember watching the post-production process and was left awestruck. The way computer graphics changed the look of the film significantly, and added a whole new dimension to it just made me think one thing - "that’s what I want to do". Since then, there has been no turning back.<br><br>
-I completed my Bachelors in Computer Science & Engineering in 2013, and it was in my senior year that I began a rigourous process of self-study to gain more knowledge and insight in the wonderful world of Animation and Visual Effects. After that I took the next big step in my life, and another major step in fulfiling my dream, when I moved to College Station, Texas. I've had the pleasure of meeting and hanging out with some truly gifted individuals here and I'm enjoying each and every minute of it.<br><br>
-My main areas of interest would be Effects (well..obviously), physically based simulation programming, and procedural modeling.<br><br>
-                Here are some fun facts about me:<br><br>
-                <i class="fa fa-caret-right"></i> I love and support Liverpool FC, and I'm incredibly proud of that fact. There might not be a league title to brag about for 20+ years but I'm still a Red, through and through.<br><i class="fa fa-caret-right"></i> Animated movies give me more feels than live action ones.<br><i class="fa fa-caret-right"></i> I enjoy playing games occasionally. I fall into the legion of PlayStation supporters.<br><i class="fa fa-caret-right"></i> I enjoy music but don't have a favorite genre. Weird right?<br><i class="fa fa-caret-right"></i> I am an expert in swearing at my computer when it doesn't obey me.
 
-
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>TALK TO ME!<!-- <span id="heavy">TALK TO ME!</span> --></h1>
-                </div>
-            </div>
-            <div class="row">
-                <div id="contact-vertical">
-                    <div class="col-lg-4" id="glyphs" style="text-align:right;">
-                        <!-- <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>   -->
-                        <span class="fa-stack fa-3x">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <br>
-                        <p>979 985 0936</p>
+        <div id="proj-work">
+            <div class="container">
+                <div class="row" id="proj-space">
+                    <div class="col-lg-7">
+                        <img src="images/scene_sheet.jpg" style="height:360px; width: 640px;">
                     </div>
-                    <div class="col-lg-4" id="glyphs">
-                        <!-- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>   -->
-                        <span class="fa-stack fa-3x">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <br>
-                        <p>rushil[dot]kekre[at]gmail[dot]com</p>
-                    </div>
-                    <div class="col-lg-4" id="glyphs" style="text-align:left;">
-                        <a href="https://www.linkedin.com/in/rushil-kekre-010b6755" target="_blank" style="text-decoration:none;color:#333;">
-                        <span class="fa-stack fa-3x">
-                            <i class="fa fa-circle fa-stack-2x"></i>    
-                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i> 
-                        </span>
-                        <br>
-                        <p>LinkedIn</p></a>
+                    <div class="col-lg-5" id="proj-details">
+                        <h2>I LAVA THIS <span id="cambay-light">(work in progress)</span></h2> 
+                        <p><span id="heavy">Team Members:</span> <a href="http://www.soumitragoswami.com" target="_blank">Soumitra Goswami</a> and me</p>
+                        <p>The main aim of this project was to produce an FX centric short. We chose to focus on lava.</p>
+                        <p>Scenes 1 and 2 (top 3 images) are being done by me,  while the remaining two (bottom 3) are being done by Soum. We are responsible for our own scenes including concept, modeling, fluid RnD.</p>
+                        <p><span id="heavy">Software/Tools Used:</span>  <img src="images/houdini_icon_32.png">  <img src="images/maya_icon_32.png"></p>
                     </div>
                 </div>
+
+                <div class="row" id="proj-space">
+                    <div class="col-lg-7">
+                        <iframe src="https://player.vimeo.com/video/142798592" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-5" id="proj-details">
+                        <h2>KNOT TODAY</h2>
+                        <p><span id="heavy">Team Members:</span> <a href="http://alyssapena.com" target="_blank">Alyssa Pena</a>, <a href="http://billderrington.com/" target="_blank">Bill Derrington</a>, <a href="http://emyoswald.com" target="_blank">Emily Oswald</a>, <a href="http://qiaocreation.com/" target="_blank">Qiao Wang</a>, <a href="http://www.yuxiaodu.com/" target="_blank">Yuxiao Du</a>, and me</p>
+                        <p><span id="heavy">My Role:</span> FX & Art Lead</p>
+                        <p>This was a 30 second animated short produced in the Summer of 2015 under the guidance and mentorship of artists and CG professionals from Walt Disney Animation Studios as part of an ongoing collaboration with the Department of Visualization.</p>
+                        <p>While primarily the FX lead, I helped out with modeling and texturing of few props in the early stages of production.</p>
+                        <p><span id="heavy">Software/Tools Used:</span>  <img src="images/houdini_icon_32.png">  <img src="images/maya_icon_32.png">  <img src="images/mari_icon_32.png"></p>
+                    </div>
+                </div>
+
+                <div class="row" id="proj-space">
+                    <div class="col-lg-7">
+                        <iframe src="https://player.vimeo.com/video/164958330" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-5" id="proj-details">
+                        <h2>FLOCKING SIMULATION</h2>
+                        <p><span id="heavy">Individual project</span></p>
+                        <p>Flocking simulation done in Fall 2015 as a part of Physically Based Modeling (VIZA659)</p>
+                        <p>The project is based on Craig Reynolds paper <i>Flocks, Herds, and Schools: A Distributed Behavioral Model.</i> It follows the three basic steering behaviors as explained by Reynolds.</p>
+                        <p><span id="heavy">Software/Tools Used:</span>  <img src="images/processing_icon_32.png">  <img src="images/python_icon_32.png"></p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
 
-<!--Footer-->
+
+
+
+    <!--Footer-->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -179,7 +172,7 @@ My main areas of interest would be Effects (well..obviously), physically based s
                     <a href="https://www.linkedin.com/in/rushil-kekre-010b6755" target="_blank" id="linkedin"><i class="fa fa-linkedin fa-2x"></i></a>
                 </div>
                 <div class="col-lg-4" id="up">
-                    <a class="page-scroll" href="#about" id="up"><i class="fa fa-angle-double-up fa-2x"></i></a>
+                    <a class="page-scroll" href="#work" id="up"><i class="fa fa-angle-double-up fa-2x"></i></a>
                 </div>
             </div>
         </div>
