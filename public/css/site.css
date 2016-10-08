@@ -320,6 +320,11 @@ body{
 	padding-left: 50px;
 }
 
+.cv-img{
+	height: 100%;
+	width: 100%;
+}
+
 /*WORK PAGE*/
 #work-intro h1{
 	font-family: 'Cambay',sans-serif;
