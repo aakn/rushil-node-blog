@@ -1,378 +1,155 @@
-/*Fonts*/
-/*
-font-family: 'Cambay', sans-serif;
-font-weight: 400 or 700;
-*/
+/* Site CSS */
 
-body{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-size: 13pt;
+.reel h3{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 15%;
 }
 
-#light{
-	font-weight: 400;
-	/*font-weight:bold;*/
+.about-details{
+	padding-top:6%;
+    color: #323232;
 }
-
-#heavy{
+.contact{
+	margin-top: 7%;
+	/*padding-top: 2%;*/
+}
+.about-details h3{
+	font-family: 'Montserrat',sans-serif;
+	color: #f2651e;
 	font-weight: 700;
 }
-
-#cambay-light{
-	font-family: 'Cambay', sans-serif;
+.about-details p{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 10pt;
 	font-weight: 400;
-}
-
-/*Footer*/
-.footer{
-	color: #646464;
-	background: #191919;
-	padding-top: 15px;
-	/*padding-bottom: 5px;*/
-}
-
-#copyright{
-	line-height: 1.25em;
-	font-size: 12pt;
-	text-align: left;
-}
-
-#social{
-	letter-spacing: 10pt;
-	text-align: center;
-}
-
-#social a, #up a{
-	color: #646464;
-}
-
-#vimeo:hover, #insta:hover, #fb:hover, #linkedin:hover, #up:hover{
-	color: #afafaf;
-}
-
-#up{
-	text-align: right;
-	/*padding-top: -50px;*/
-}
-
-/*LANDING PAGE*/
-
-#front-full-logo{
-	width:400px;
-	margin-top: 320px;
-	/*padding-top:250px;*/
-}
-
-.btn-reel{
-	background-color: transparent;
-	color: rgb(240,240,240);
-	border-color: #fff;
-	margin-top: 20%;
-	padding: 20px;
-	-webkit-transition:background .3s ease-in-out;
-}
-
-.btn-reel:hover{
-	background-color: rgb(25,25,25);
-	color: #fff;
-	border-color: #fff;
-	-webkit-transition:background .3s ease-in-out;
-}
-
-.reel-head{
-	/*font-family: 'Cambay',sans-serif;*/
-	font-family: 'Josefin Sans',sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	/*letter-spacing: -1pt;*/
-	line-height: 25pt;
-	text-align: right;
-	/*margin-top: 5px;*/
-}
-
-
-/*ABOUT PAGE*/
-
-#imagewrap{
-	background:url(../images/about-me-cover.jpg) no-repeat center top;
-	margin-top: -110px;
-	padding-top: 250px;
-	min-height: 460px;
-	width: 100%;
-	background-position: center 37%;
-	background-size: cover;
-}
-
-#about-content{
-	padding-top: 50px;
-}
-
-#about-content h1{
-	/*font-family: 'Cambay',sans-serif;*/
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	/*letter-spacing: -1pt;*/
-	line-height: 28pt;
-	text-align: right;
-	margin-top: 0px;
-}
-
-#about-text{
-	padding-bottom: 120px;
 	text-align: justify;
-	/*border-left:solid 1px rgb(175,175,175);*/
 }
-
-/*CONTACT SECTION*/
-
-.contact-section h1{
-	/*font-family: 'Cambay',sans-serif;*/
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
-	font-size: 26pt;
-	letter-spacing: -1pt;
-	line-height: 28pt;
-	text-align: center;
-	margin-top: -35px;
-	padding-bottom: 20px;
-	/*margin-right: -70px;*/
-	/*padding-right: -15px;*/
-	/*border-right: solid 1px rgb(175,175,175); */
-}
-
-#contact-vertical{
-	border-left: solid 1px rgb(175,175,175);
-}
-
-#glyphs p{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-size: 14pt;
-	padding: 15px;
-	/*border-left: solid 1px rgb(175,175,175);*/
-}
-
-.glyphicon{
-	/*background-color: #afafaf;*/
-	/*padding: 25px;*/
-	/*border-radius: 50%;*/
-	font-size: 3em;
-}
-
-/*REEL SECTION*/
-
-.reel-section h1{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-size: 32pt;
-	letter-spacing: -1pt;
-	line-height: 28pt;
-	text-align: right;
-	margin-top: 5px;
-}
-
-
-/*RESUME PAGE*/
-.resume-section h1{
-	/*font-family: 'Cambay',sans-serif;*/
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 700;
-	font-size: 20pt;
-	/*letter-spacing: -1pt;*/
-	/*line-height: 28pt;*/
-	text-align: left;
-	/*margin-top: 0px;*/
-}
-
-.btn-download{
-	background-color: transparent;
-	color: #191919;
-	border-color: #191919;
-	margin-top: 15px;
-	padding: 10px;
-	-webkit-transition:background .3s ease-in-out;
-}
-
-.btn-download:hover{
-	background-color: #e1e1e1;
-	color: #252525;
-	border-color: #191919;
-	margin-top: 15px;
-	padding: 10px;
-	-webkit-transition:background .3s ease-in-out;
-}
-
-.resume-section h3{
-	/*font-family: 'Cambay',sans-serif;*/
-	/*font-weight: 700;*/
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 600;
-	font-size: 14pt;
-	margin-top: 10px;
-}
-
-#res-title{
-	text-align:right;
-	/*border-right:solid 1px #afafaf;*/
-	/*line-height: 0.5em;*/
-}
-
-#date{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-style: italic;
-	margin-bottom: 3px;
-}
-
-#head{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 600;
-	/*color: #191919;*/
-	margin-bottom: 1px;
-	/*margin-top: 5px;*/
-	line-height: 1.5em;
-	font-size: 13pt;
-}
-
-#subhead{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	color: #333;
-	margin: 0px;
-	line-height: 1em;
-	font-size: 12pt;
-	/*padding-top: 10px;	*/
-}
-
-#education{
-	padding-top: 30px;
-	padding-bottom:30px;
-	/*background: #eee;*/
-	/*border-right:solid 1px #afafaf;*/
-}
-
-#education-content{
-	text-align: left;
-	line-height: 0.6em;
-	padding-top: 15px;
-	border-left:solid 1px #afafaf;
-	padding-left: 40px;
-}
-
-#skills{
-	padding-top: 30px;
-	padding-bottom:30px;
-	/*background: #d4d4d4;*/
-}
-
-#skills-list{
-	padding-top:10px;
-	border-left:solid 1px #afafaf;
-	text-align:left;
-	/*line-height: 3em;*/
-	padding-left: 40px;
-}
-
-#projects{
-	padding-top: 30px;
-	padding-bottom:30px;
-	/*background: #fbfbfb;*/
-}
-
-#project-list{
-	text-align: left;
-	border-left:solid 1px #afafaf;
-	line-height: 0.6em;
-	padding-top: 15px;
-	padding-left: 40px;
-}
-
-#project-details{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-size: 13pt;
-	padding-top: 10px;
-	line-height: 1.2em;
-	padding-left: 50px;
-}
-
-#experience{
-	padding-top: 30px;
-	padding-bottom:130px;
-	/*background: #eee;*/
-}
-
-#experience-list{
-	text-align: left;
-	line-height: 0.6em;
-	padding-top: 30px;
-	padding-left: 40px;
-}
-
-#experience-details{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 400;
-	font-size: 13pt;
-	padding-top: 10px;
-	line-height: 1.2em;
-	padding-left: 50px;
-}
-
-.cv-img{
+.me-img{
 	height: 100%;
 	width: 100%;
 }
-
-/*WORK PAGE*/
-#work-intro h1{
-	font-family: 'Cambay',sans-serif;
-	font-weight: 700;
-	/*font-size: 34pt;*/
-	letter-spacing: -1pt;
-	line-height: 28pt;
-	text-align: right;
-	vertical-align: middle;
-	margin-top: 0px;
-}
-
-#work-intro{
-	padding-bottom: 30px;
-	/*border-bottom: 1px solid #191919;*/
-}
-
-#desc-text{
-	text-align: justify;
-}
-
-#proj-work{
-	background: white;
-	padding-bottom: 100px;
-}
-
-#proj-space{
-	padding-top: 50px;
-	/*padding-bottom: 25px;*/
-}
-
-#proj-details{
-	text-align: justify;
-}
-
-#proj-details h2{
-	/*font-family: 'Cambay',sans-serif;*/
-	font-family: 'Josefin Sans', sans-serif;
+.about-content{
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 18pt;
-	margin-top: 0px;
+	font-size: 10pt;
+	text-align: justify;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	color: #323232;
 }
 
-#proj-tools{
-	height: 48px;
-	width: 48px;
+.work-list{
+	padding-top: 2%;
+}
+.proj{
+	padding-top: 2%;
+}
+.proj:hover{
+	color: #cc5519;
+}
+.proj-img{
+	height: 100%;
+	width: 100%;
+}
+.proj-details h3:hover{
+	/*color: #cc5519;*/
+	color: #323232;
+}
+.proj-details h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12pt;
+	color: #f2651e;
+	padding-top: 8%;
+	line-height: 1pt;
+}
+.proj-details p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9.5pt;
+	font-weight: 400;
+	color: #323232;
+}
+.proj-extended-details{
+	padding-top: 4%;
+}
+.proj-extended-details h4{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2651e;
+}
+.proj-content{
+	padding-top: 1%;
+}
+.proj-content p{
+	font-family: 'Open Sans', sans-serif;
+	color: #323232;
+	font-size: 10pt;
+}
+#bold{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2651e;
+	font-size: 10pt;
+}
+.proj-content a{
+	font-family: 'Open Sans', sans-serif;
+	color: #323232;
 }
 
-#proj-details a:visited{
-	text-decoration: initial;
+.tools{
+	height: 5%;
+	width: 5%;
+	padding-left: 1%;
+}
+
+.proj-results-img{
+	padding-top: 2%;
+	width: 100%;
+	height: 100%;
+}
+.return{
+	padding-top: 2%;
+}
+a#back{
+	color: #f2651e;	
+}
+a#back:hover{
+	color: #323232;
+}
+
+.resume{
+	padding-top: 2%;
+}
+
+a.btn-download{
+	background: white;
+	color: #323232;
+}
+a.btn-download:hover{
+	background: #f0f0f0;
+	color: #323232;
+}
+
+.resume-title{
+	padding-top: 1%;
+	border-bottom: 2px solid #f2651e;
+}
+.resume-title h5{
+	font-family: 'Montserrat', sans-serif;
+	color: #f2651e;
+}
+
+.resume-block{
+	padding-top: 1%;
+	font-family: 'Open Sans', sans-serif;
+	color: #323232;
+	font-size: 10pt;
+}
+.resume-dates{
+	text-align: right;
+}
+.resume-details{
+	font-family: 'Open Sans', sans-serif;
+	color: #323232;
+	font-size: 10pt;
+}
+.skills{
+	text-align: right;
 }

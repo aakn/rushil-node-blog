@@ -5,31 +5,32 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Rushil Kekre | FX Artist + Developer</title>
+    <title>Rushil Kekre - FX TD</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-    <!-- Site CSS -->
+    <!-- Custom Site CSS -->
     <link href="css/site.css" rel="stylesheet">
 
-    <!--Font CSS-->
-    <link href='https://fonts.googleapis.com/css?family=Cambay:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <!--Glyph CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon (2).ico" type="image/x-icon">
+    <link rel="icon" href="favicon (2).ico" type="image/x-icon">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,175 +41,341 @@
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <div id="wrapper">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html"><!-- Start Bootstrap --><img src="images/brand.png" style="margin-top:-10px;padding-top:5px;height:30px;"></a>
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            
+            <ul class="sidebar-nav">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png">
+                </a>
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        <div class="name">RUSHIL KEKRE</div>
+                        <div class="role">FX TECHNICAL DIRECTOR</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="reel.html">REEL</a>
+                </li>
+                <li>
+                    <a href="work.html">WORK</a>
+                </li>
+                <li>
+                    <a href="resume.html">RESUME</a>
+                </li>
+                <li>
+                    <!-- <a href="about.html">ABOUT</a> -->
+                </li>
+
+            <div class="social-media">
+                <a href="https://vimeo.com/user44981589" target="_blank" id="vimeo"><i class="fa fa-vimeo"></i></a>
+                <a href="https://www.instagram.com/cakeray/" target="_blank" id="insta"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/r_cakeray" target="_blank" id="fb"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/rushil-kekre-010b6755" target="_blank" id="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html#reel">REEL</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">RESUME</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="work.html">WORK</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="about.html">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="about.html#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            </ul>
+
+            
+            <footer class="footer">
+                <p>Copyright &copy; 2014-
+                    <script language="JavaScript" type="text/javascript">
+                                                now = new Date
+                                                theYear=now.getYear()
+                                                if (theYear < 1900)
+                                                theYear=theYear+1900
+                                                document.write(theYear)
+                    </script> Rushil Kekre<br>www.rushilkekre.com All rights reserved.
+                </p>
+            </footer>
+
+
         </div>
-        <!-- /.container -->
-    </nav>
+        <!-- /#sidebar-wrapper -->
 
-    
-    <!--Resume Section-->
-    <section id="resume" class="resume-section">
-        <!--<div class="container">
-            <div class="row" style="padding-bottom:30px;">
-                <div class="col-lg-10" style="text-align:left;">
-                    <h1>RESUME<span id="heavy">resume</span></h1>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row hidden-lg hidden-md hidden-sm">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars menu" aria-hidden="true"></i></a>
+                    </div>
                 </div>
-                <div class="col-lg-2">
-                    <a class="btn btn-primary btn-lg btn-download page-scroll" href="RushilKekre_cv_2016_5.pdf" target="_blank"><i class="fa fa-download"></i> Download PDF</a>
+                <div class="row resume">
+                    <div class="col-lg-1 col-lg-offset-2">
+                        <a class="btn btn-primary btn-sm btn-download page-scroll" href="RushilKekre_FX_CV.pdf" target="_blank"><i class="fa fa-download"></i> Download PDF</a>
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 resume-title">
+                        <h5>EDUCATION</h5>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>M.S - Visualization</b><br>
+                            TEXAS A&M UNIVERSITY<br>
+                            College Station, Texas
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            August 2017<br>
+                            (expected)
+                            </i>
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>B.E - Computer Science & Engineering</b><br>
+                            PES SCHOOL OF ENGINEERING<br>
+                            Bangalore, India
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            2009
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 resume-title">
+                        <h5>SKILLS</h5>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            <b>Software: </b>Houdini, Maya, Mari, Photoshop, Shotgun, Unreal, Arnold, Visual Studio<br>
+                            <b>Languages: </b>C++, OpenGL, VEX, Python, Processing, HTML, CSS, JavaScript<br>
+                            <b>OS: </b>Windows, Linux, Mac 
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 resume-title">
+                        <h5>EXPERIENCE</h5>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>FX Intern</b><br>
+                            FRAMESTORE - Commercials<br>
+                            <i>New York, NY</i>
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            June - August 2016
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            - Created FX elements using Houdini for a commercial as well as an in-house animated short<br>
+- Built a procedural modeling tool to create static snow and icicles for set dressing<br>
+- Added functionality to existing pipeline tools and digital assets using VEX
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>FX Lead</b><br>
+                            TEXAS A&M UNIVERSITY<br>
+                            
+                        </p>
+                        <p class="pull-right resume-dates"> 
+                            <i>
+                            May - August 2015
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            <i>Summer Industry Course with Walt Disney Animation Studios</i><br>
+                           - Created a 30 second animated short under the guidance of artists from Walt Disney Animation Studios<br>
+- Responsible for creating FX elements in Houdini<br>
+- Assisted in modeling and texturing of few props using Houdini and Maya
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>Web Development Intern</b><br>
+                            QUADWAVE CONSULTING
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            April - June 2014
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                           - Developed responsive websites for desktop, tablet and mobile use<br>
+- Redesigned UI for various existing company projects<br>
+- Generated marketing content for use in company projects and activities
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>Graphics Programmer Intern</b><br>
+                            VIRTUAL LOGIC SYSTEMS
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            February - April 2013
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                           - Developed tools for a real time welding simulator<br>
+- Created props and relevant effects 
+                        </p>
+                    </div>
+                </div>
+
+
+                <!--<div class="skills">-->
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 resume-title">
+                        <h5>ACADEMIC</h5>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>Graduate Assistant - Teaching</b><br>
+                            TEXAS A&M UNIVERSITY
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            September - December 2016
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                           - Responsible for grading assignments and projects for VIST 270 (Computing for Visualization 1)<br>
+- Responsible for helping students solve programming issues and conducting information sessions 
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>Graduate Assistant - Research</b><br>
+                            TEXAS A&M UNIVERSITY
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            January - May 2016
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                           - Assisted on a NSF funded Augmented Reality project based on eye tracking<br>
+- Created scripts in Matlab for testing in Unity 
+                        </p>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p class="pull-left">
+                            <b>Graduate Assistant - Teaching</b><br>
+                            TEXAS A&M UNIVERSITY
+                        </p>
+                        <p class="pull-right resume-dates">
+                            <i>
+                            January - December 2015
+                            </i>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row resume-details">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                           - Responsible for grading essays for VIST 375 (Foundations of Visualization) 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 resume-title">
+                        <h5>RELEVANT COURSEWORK</h5>
+                    </div>
+                </div>
+                <div class="row resume-block">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <p>
+                        - Physically Based Modeling<br>
+                        - Digital Image Processing<br>
+                        - Interactive Virtual Environments<br>
+                        - Data Structures<br>
+                        - Object Oriented Programming using C++<br>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>
+                        - Image Synthesis<br>
+                        - Rendering and Shading<br>
+                        - Computer Graphics<br>
+                        - Analysis of Algorithms<br>
+                        - Software Engineering
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>-->
+        </div>
+        <!-- /#page-content-wrapper -->
 
-        <!--Education-->
-        <!--<div id="education">
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-lg-2" id="res-title">
-                        <h3> EDUCATION</h3>
-                    </div>
-                        <div class="col-lg-5" id="education-content">
-                            <p id="date">2014 - Present</p><p id="head">MASTER OF SCIENCE - VISUALIZATION</p><p id="subhead">Texas A&M University</p>
-                        </div>
-                        <div class="col-lg-5" id="education-content">
-                            <p id="date">2013</p><p id="head">BACHELOR OF ENGINEERING - COMPUTER SCIENCE</p><p id="subhead">PES Institute of Technology</p>
-                        </div>
-                    </div>
-                <div class="row">
-                </div>
-            </div>
-        </div>-->
+    </div>
+    <!-- /#wrapper -->
 
-        <!--Skills-->
-        <!-- <div id="skills">
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-lg-2" id="res-title">
-                        <h3> SKILLS</h3>
-                    </div>
-                    <div class="col-lg-10" id="skills-list">
-                        <p id="head">SOFTWARE</p><p>Houdini | Maya | Mari | Unreal | Photoshop</p><br><p id="head">LANGUAGES</p><p>C++ | VEX | Python | Processing | HTML | CSS | JavaScript </p><br><p id="head">OPERATING SYSTEMS</p><p>Windows | Ubuntu | Mac </p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!--Projects-->
-        <!-- <div id="projects">
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-lg-2" id="res-title">
-                        <h3> PROJECTS</h3>
-                    </div>
-                    <div class="col-lg-10" id="project-list">
-                        <p id="date">May 2015 - August 2015</p><p id="head">Summer Industry Course with Walt Disney Animation Studios</p><p id="subhead">EFFECTS & ART LEAD</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!--Experience-->
-        <!-- <div id="experience">
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-lg-2" id="res-title">
-                        <h3> EXPERIENCE</h3>
-                    </div>
-                    <div class="col-lg-10" id="project-list">
-                        <p id="date">January 2016 - Present</p><p id="head">Graduate Research Assistant</p><p id="subhead">TEXAS A&M UNIVERSITY</p>
-                        <br><br><br>
-                        <p id="date">January 2015 - December 2015</p><p id="head">Graduate Teaching Assistant</p><p id="subhead">TEXAS A&M UNIVERSITY</p>
-                        <br><br><br>
-                        <p id="date">April 2014 - July 2014</p><p id="head">Intern - Web Design & Development</p><p id="subhead">QUADWAVE CONSULTING</p>
-                        <br><br><br>
-                        <p id="date">February 2013 - April 2013</p><p id="head">Intern - Graphics Programmer</p><p id="subhead">VIRTUAL LOGIC SYSTEMS</p>
-                    </div>
-                </div>
-            </div>
-        </div> --> 
-
-        <div class="container">
-            <img class="cv-img" src="images/CV4.png">
-        </div>       
-        
-        <!--Footer-->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4" id="copyright">
-                        <p>Copyright &copy; 2014-<script language="JavaScript" type="text/javascript">
-                                                    now = new Date
-                                                    theYear=now.getYear()
-                                                    if (theYear < 1900)
-                                                    theYear=theYear+1900
-                                                    document.write(theYear)
-                                                </script> Rushil Kekre<br>All rights reserved.</p>
-                    </div>
-                    <div class="col-lg-4" id="social">
-                        <a href="https://vimeo.com/user44981589" target="_blank" id="vimeo"><i class="fa fa-vimeo fa-2x"></i></a>
-                        <a href="https://www.instagram.com/cakeray/" target="_blank" id="insta"><i class="fa fa-instagram fa-2x"></i></a>
-                        <a href="https://www.facebook.com/rushil.kekre" target="_blank" id="fb"><i class="fa fa-facebook fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/in/rushil-kekre-010b6755" target="_blank" id="linkedin"><i class="fa fa-linkedin fa-2x"></i></a>
-                    </div>
-                    <div class="col-lg-4" id="up">
-                        <a class="page-scroll" href="#resume" id="up"><i class="fa fa-angle-double-up fa-2x"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </section>
-
-
-
-
-     <!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 
 </body>
+
+</html>
