@@ -157,6 +157,11 @@
         position: relative;
         margin-right: 0;
     }
+
+    .sidebar-nav {
+        margin-top: 1%;
+        padding-top: 1%;
+    }
 }
 
 i{
