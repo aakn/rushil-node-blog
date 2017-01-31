@@ -84,8 +84,10 @@
     position: absolute;
     top: 0;
     width: 250px;
-    margin-top: 40%;    /*30 if separate above section*/
-    padding-top: 30%;   /*25 if separate above section*/
+    margin-top: 40%;    
+    /*30 if separate above section*/
+    padding-top: 30%;   
+    /*25 if separate above section*/
     padding-left: 0;
     list-style: none;
     text-align: center;
