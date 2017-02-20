@@ -6,7 +6,7 @@
 }
 
 .about-details{
-	padding-top:12%;
+	padding-top:8%;
     color: #323232;
     line-height: 0em;
 }
@@ -20,12 +20,13 @@
 	color: rgb(80,80,80);
 	font-weight: 700;
 	letter-spacing: -3pt;
-	padding-top:25%;
+	padding-top:45%;
 }
 .sub{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #f2651e;
 	font-size: 20px;
+	margin-bottom: 25%;
 }
 .about-details p{
 	font-family: 'Source Sans Pro',sans-serif;
@@ -33,6 +34,7 @@
 	font-weight: 400;
 	color: rgb(100,100,100);
 	line-height: 1.5em;
+	padding-top: 8%;
 }
 .me-img{
 	height: 100%;
