@@ -6,6 +6,7 @@
 
  body {
     overflow-x: hidden;
+    background: rgb(248,248,248);
  }
 
 /* Toggle Styles */
@@ -35,6 +36,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    /*box-shadow: 15px 0px 5px #f0f0f0;*/
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -84,10 +86,8 @@
     position: absolute;
     top: 0;
     width: 250px;
-    margin-top: 40%;    
-    /*30 if separate above section*/
-    padding-top: 30%;   
-    /*25 if separate above section*/
+    margin-top: 40%;    /*30 if separate above section*/
+    padding-top: 30%;   /*25 if separate above section*/
     padding-left: 0;
     list-style: none;
     text-align: center;
@@ -159,11 +159,6 @@
         position: relative;
         margin-right: 0;
     }
-
-    .sidebar-nav {
-        /*margin-top: 1%;*/
-        /*padding-top: 1%;*/
-    }
 }
 
 i{
@@ -193,5 +188,3 @@ i{
     font-size: 7pt;
     color: #c0c0c0;
 }
-
-/*checking changes to simple sidebar*/
