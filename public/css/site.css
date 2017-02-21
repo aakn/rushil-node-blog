@@ -2,7 +2,11 @@
 
 .reel h3{
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 15%;
+	padding-top: 10%;
+	color: rgb(80,80,80);
+	letter-spacing: -1px;
+	font-weight: 700;
+	font-size:30px;
 }
 
 .about-details{
@@ -14,7 +18,7 @@
 	margin-top: 7%;
 	/*padding-top: 2%;*/
 }
-.about-details h3{
+.about-details h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size: 60px;
 	color: rgb(80,80,80);
@@ -32,7 +36,7 @@
 	font-family: 'Source Sans Pro',sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	color: rgb(100,100,100);
+	color: rgb(80,80,80);
 	line-height: 1.5em;
 	padding-top: 8%;
 }
@@ -64,44 +68,61 @@
 	width: 100%;
 }
 .proj-details h3:hover{
-	/*color: #cc5519;*/
-	color: #323232;
+	color: #f2651e;
 }
 .proj-details h3{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12pt;
-	color: #f2651e;
-	padding-top: 8%;
-	line-height: 1pt;
+	font-size: 20px;
+	letter-spacing: -1px;
+	color: rgb(80,80,80);
+	font-weight: 700;
+	line-height: 1.5pt;
 }
 .proj-details p{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 9.5pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
 	font-weight: 400;
-	color: #323232;
+	color: rgb(80,80,80);
+}
+.wip{
+	font-weight: 400;
+	color: rgb(120,120,120);
+}
+.highlight{
+	color: #f2651e;
 }
 .proj-extended-details{
 	padding-top: 4%;
 }
-.proj-extended-details h4{
+.proj-title h2{
 	font-family: 'Montserrat', sans-serif;
-	color: #f2651e;
+	color: rgb(80,80,80);
+	font-weight: 700;
+	letter-spacing: -1px;
+	/*font-size: 30px;*/
 }
 .proj-content{
 	padding-top: 1%;
 }
 .proj-content p{
-	font-family: 'Open Sans', sans-serif;
-	color: #323232;
-	font-size: 10pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(80,80,80);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+#me{
+	color: #f2651e;
 }
 #bold{
 	font-family: 'Montserrat', sans-serif;
-	color: #f2651e;
-	font-size: 10pt;
+	color: rgb(80,80,80);
+	font-size: 16px;
+	font-weight: 700;
+	/*letter-spacing: -0.25px;*/
 }
 .proj-content a{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #323232;
 }
 
@@ -143,24 +164,35 @@ a.btn-download:hover{
 	padding-top: 1%;
 	border-bottom: 2px solid #f2651e;
 }
-.resume-title h5{
+.resume-title h3{
 	font-family: 'Montserrat', sans-serif;
-	color: #f2651e;
+	color: rgb(80,80,80);
+	font-weight: 700;
+	letter-spacing: -0.5px;
 }
 
 .resume-block{
 	padding-top: 1%;
-	font-family: 'Open Sans', sans-serif;
-	color: #323232;
-	font-size: 10pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(80,80,80);
+	font-size: 14px;
+	line-height: 1.5;
+}
+.italic{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(80,80,80);
+	font-weight: 400;
+	font-style: italic;
+	font-size: 14px;
 }
 .resume-dates{
 	text-align: right;
 }
 .resume-details{
-	font-family: 'Open Sans', sans-serif;
-	color: #323232;
-	font-size: 10pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(80,80,80);
+	font-size: 14px;
+	line-height: 1.5;
 }
 .skills{
 	text-align: right;
