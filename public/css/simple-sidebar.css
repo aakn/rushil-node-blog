@@ -62,18 +62,19 @@
     text-align: center;
 }
 .name {
-  font-size: 14pt;
+  font-size: 18px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(50, 50, 50);
+  color: rgb(80, 80, 80);
   line-height: 1.2;
   text-align: center;
   z-index: 20;
+  font-weight: 700;
 }
 
 .role {
   font-size: 8pt;
   font-family: 'Montserrat',sans-serif;
-  color: rgb(50, 50, 50);
+  color: rgb(80, 80, 80);
   line-height: 1.2;
   text-align: center;
   /*-moz-transform: scale(1, 0.9);
@@ -97,7 +98,7 @@
     font-family: 'Montserrat', sans-serif;
     /*text-indent: 20px;*/
     line-height: 40px;
-    color: #323232;
+    color: rgb(80,80,80);
     font-size: 10pt;
 }
 

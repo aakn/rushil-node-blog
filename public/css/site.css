@@ -11,7 +11,6 @@
 
 .about-details{
 	padding-top:4%;
-    color: #323232;
     line-height: 0em;
 }
 .contact{
@@ -71,13 +70,14 @@
 }
 .proj-details p{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 400;
 	color: rgb(80,80,80);
 }
 .wip{
 	font-weight: 400;
-	color: rgb(120,120,120);
+	color: rgb(160,160,160);
+	font-size: 16px;
 }
 .highlight{
 	color: #f2651e;
@@ -166,7 +166,7 @@ a.btn-download:hover{
 	padding-top: 1%;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: rgb(80,80,80);
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 .italic{
@@ -174,7 +174,7 @@ a.btn-download:hover{
 	color: rgb(80,80,80);
 	font-weight: 400;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 16px;
 }
 .resume-dates{
 	text-align: right;
@@ -182,7 +182,7 @@ a.btn-download:hover{
 .resume-details{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: rgb(80,80,80);
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 .skills{
