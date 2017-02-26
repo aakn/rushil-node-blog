@@ -39,6 +39,12 @@
 	line-height: 1.5em;
 	padding-top: 8%;
 }
+.orange{
+	color: #f2651e;
+}
+.red{
+	color: #c31014;
+}
 .me-img{
 	height: 100%;
 	width: 100%;
@@ -50,17 +56,32 @@
 .proj{
 	padding-top: 2%;
 }
-.proj:hover{
-	color: #cc5519;
-}
+/*.proj:hover{*/
+	/*color: #cc5519;*/
+/*}*/
 .proj-img{
 	height: 100%;
 	width: 100%;
 }
-.proj-details h3:hover{
+.desaturate{
+	filter: grayscale(20%); /*Standard CSS*/
+	-webkit-filter:grayscale(20%); /*CSS for webkit browsers*/
+	filter: none; /*IE Support*/
+	-webkit-filter:grayscale(0.2); /*Old Webkit Browsers*/
+	-moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.desaturate:hover{
+	filter: grayscale(0%);
+	filter: none;
+	-webkit-filter:grayscale(0);
+}
+.proj h3:hover{
 	color: #f2651e;
 }
-.proj-details h3{
+.proj h3{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	letter-spacing: -1px;
