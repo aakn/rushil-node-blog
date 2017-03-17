@@ -1,5 +1,16 @@
 /* Site CSS */
-
+.centered{
+	position: fixed;
+    top: 50%;
+    left: 58%;
+    margin-right: -25%;
+    transform: translate(-50%,-50%);
+}
+.bg{
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
 .reel h3{
 	font-family: 'Montserrat', sans-serif;
 	padding-top: 10%;
@@ -10,12 +21,15 @@
 }
 
 .about-details{
-	padding-top:4%;
+	padding-top:2%;
     line-height: 0em;
 }
 .contact{
 	margin-top: 7%;
 	/*padding-top: 2%;*/
+}
+.centered{
+	text-align: center;
 }
 .about-details h1{
 	font-family: 'Montserrat',sans-serif;
@@ -23,7 +37,7 @@
 	color: rgb(80,80,80);
 	font-weight: 700;
 	letter-spacing: -3pt;
-	padding-top:12%;
+	padding-top:2%;
 }
 .sub{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -37,10 +51,7 @@
 	font-weight: 400;
 	color: rgb(80,80,80);
 	line-height: 1.5em;
-	padding-top: 8%;
-}
-.orange{
-	color: #f2651e;
+	padding-top: 4%;
 }
 .red{
 	color: #c31014;
@@ -64,10 +75,10 @@
 	width: 100%;
 }
 .desaturate{
-	filter: grayscale(20%); /*Standard CSS*/
-	-webkit-filter:grayscale(20%); /*CSS for webkit browsers*/
+	filter: grayscale(75%); /*Standard CSS*/
+	-webkit-filter:grayscale(75%); /*CSS for webkit browsers*/
 	filter: none; /*IE Support*/
-	-webkit-filter:grayscale(0.2); /*Old Webkit Browsers*/
+	-webkit-filter:grayscale(0.7); /*Old Webkit Browsers*/
 	-moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
