@@ -31,8 +31,9 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
+    background: rgb(80,80,80); /*dark theme*/
     /*background: #f0f0f0;*/
-    background: rgb(248,248,248);
+    /*background: rgb(248,248,248);*/ /*light theme*/
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -65,7 +66,8 @@
 .name {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(80, 80, 80);
+  /*color: rgb(80, 80, 80);*/ /*light theme*/
+  color: rgb(200,200,200); /*dark theme*/
   line-height: 1.2;
   text-align: center;
   z-index: 20;
@@ -75,7 +77,8 @@
 .role {
   font-size: 8pt;
   font-family: 'Montserrat',sans-serif;
-  color: rgb(80, 80, 80);
+  /*color: rgb(80, 80, 80);*/ /*light theme*/
+  color: rgb(200,200,200); /*dark theme*/
   line-height: 1.2;
   text-align: center;
   /*-moz-transform: scale(1, 0.9);
@@ -106,7 +109,8 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #323232;
+    /*color: #323232;*/ /*light theme*/
+    color: rgb(200,200,200); /*dark theme*/
 }
 
 .sidebar-nav li a:hover {
@@ -177,7 +181,8 @@ i{
     color: #808080;
 }
 .social-media a:hover{
-    color: #323232;
+    /*color: #323232;*/ /*light theme*/
+    color: white; /*dark theme*/
 }
 
 .footer{
@@ -188,5 +193,6 @@ i{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 7pt;
-    color: #c0c0c0;
+    /*color: #c0c0c0;*/ /*light theme*/
+    color: #808080; /*dark theme*/
 }
