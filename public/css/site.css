@@ -106,6 +106,10 @@
 	font-weight: 400;
 	color: rgb(80,80,80);
 }
+.dev{
+	color: rgb(0,125,50);
+	background: rgb(230,255,240);
+}
 .wip{
 	font-weight: 400;
 	color: rgb(160,160,160);
