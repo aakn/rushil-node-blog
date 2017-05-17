@@ -31,7 +31,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: rgb(80,80,80); /*dark theme*/
+    /*background: rgb(80,80,80); /*dark theme*/
     /*background: #f0f0f0;*/
     /*background: rgb(248,248,248);*/ /*light theme*/
     -webkit-transition: all 0.5s ease;
@@ -63,25 +63,31 @@
     padding-bottom: 10%;
     text-align: center;
 }
+.sidebar-brand {
+    padding-left: 10%; 
+}
 .name {
-  font-size: 18px;
+  font-size: 26px;
   font-family: 'Montserrat', sans-serif;
-  /*color: rgb(80, 80, 80);*/ /*light theme*/
-  color: rgb(200,200,200); /*dark theme*/
+  color: rgb(80, 80, 80); /*light theme*/
+  /*color: rgb(200,200,200); dark theme*/
+  /*color: white;*/
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
   z-index: 20;
   font-weight: 700;
-  letter-spacing: 0.4px; /*title graphics developer*/
+  letter-spacing: 0.4px; /*title graphics developer
+  /*padding-left: 25px;*/
 }
 
 .role {
-  font-size: 8pt;
+  font-size: 10pt;
   font-family: 'Montserrat',sans-serif;
-  /*color: rgb(80, 80, 80);*/ /*light theme*/
-  color: rgb(200,200,200); /*dark theme*/
+  color: rgb(80, 80, 80); /*light theme*/
+  /*color: rgb(200,200,200); /*dark theme*/
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
+  font-weight: 400;
   /*-moz-transform: scale(1, 0.9);
   -webkit-transform: scale(1, 0.9);
   -ms-transform: scale(1, 0.9);*/
@@ -93,9 +99,9 @@
     position: absolute;
     top: 0;
     width: 250px;
-    margin-top: 30%;    /*30 if separate above section*/
-    padding-top: 25%;   /*25 if separate above section*/
-    padding-left: 0;
+    margin-top: 8%;    /*30 if separate above section*/
+    padding-top: 15%;   /*25 if separate above section*/
+    padding-left: 0%;
     list-style: none;
     text-align: center;
 }
@@ -103,16 +109,20 @@
 .sidebar-nav li {
     font-family: 'Montserrat', sans-serif;
     /*text-indent: 20px;*/
-    line-height: 40px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
     color: rgb(80,80,80);
-    font-size: 10pt;
+    font-size: 16pt;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    /*color: #323232;*/ /*light theme*/
-    color: rgb(200,200,200); /*dark theme*/
+    color: rgb(80,80,80);
+    /*color: #323232; /*light theme*/
+    /*color: rgb(200,200,200); /*dark theme*/
 }
 
 .sidebar-nav li a:hover {
@@ -176,15 +186,16 @@ i{
 
 .social-media{
     padding-top: 35%; /*25% if separate about section*/
-    color: #808080;
+    text-align: left;
+    padding-left: 10%;
 }
 
 .social-media a{
-    color: #808080;
+    color: rgb(80,80,80);
 }
 .social-media a:hover{
-    /*color: #323232;*/ /*light theme*/
-    color: white; /*dark theme*/
+    color: #f2651e; /*light theme*/
+    /*color: white; dark theme*/
 }
 
 .footer{
