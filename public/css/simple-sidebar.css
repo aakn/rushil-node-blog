@@ -203,7 +203,8 @@ i{
     bottom: 0;
     width: 100%;
     margin-bottom: 15%;
-    text-align: center;
+    text-align: left;
+    padding-left: 10%;
     font-family: 'Montserrat', sans-serif;
     font-size: 7pt;
     /*color: #c0c0c0;*/ /*light theme*/
