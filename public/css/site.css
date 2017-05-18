@@ -1,16 +1,4 @@
 /* Site CSS */
-.centered{
-	position: fixed;
-    top: 50%;
-    left: 58%;
-    margin-right: -25%;
-    transform: translate(-50%,-50%);
-}
-/*.bg{
-	background-image: url("../images/bg.png");
-	background-repeat: no-repeat;
-	background-position: left bottom;
-}*/
 .reel h2{
 	font-family: 'Montserrat', sans-serif;
 	padding-top: 2%;
@@ -34,16 +22,17 @@
 }
 .about-details h1{
 	font-family: 'Montserrat',sans-serif;
-	/*font-size: 40px;*/
+	/*font-size: 50px;*/
 	color: rgb(80,80,80);
 	font-weight: 700;
 	letter-spacing: -1pt;
 }
 .sub{
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #f2651e;
-	/*color: rgb(80,80,80);*/
+	/*color: #f2651e;*/
+	color: rgb(125,125,125);
 	font-size: 20px;
+	letter-spacing: 0.25pt;
 	/*margin-bottom: 25%;*/
 }
 .about-details p{
@@ -104,7 +93,7 @@
 	font-size: 16px;
 }
 .highlight{
-	color: #f2651e;
+	/*color: #f2651e;*/
 }
 .proj-extended-details{
 	padding-top: 2%;
