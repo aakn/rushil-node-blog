@@ -68,7 +68,8 @@
 .name {
   font-size: 26px;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(80, 80, 80); /*light theme*/
+  color: rgb(40,40,40);
+  /*color: rgb(80, 80, 80);*/ /*light theme*/
   /*color: rgb(200,200,200); dark theme*/
   /*color: white;*/
   line-height: 1.2;
@@ -82,7 +83,8 @@
 .role {
   font-size: 10pt;
   font-family: 'Montserrat',sans-serif;
-  color: rgb(80, 80, 80); /*light theme*/
+  color: rgb(40,40,40);
+  /*color: rgb(80, 80, 80);*/ /*light theme*/
   /*color: rgb(200,200,200); /*dark theme*/
   line-height: 1.2;
   text-align: left;
@@ -119,7 +121,8 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: rgb(80,80,80);
+    color: rgb(40,40,40);
+    /*color: rgb(80,80,80);*/
     /*color: #323232; /*light theme*/
     /*color: rgb(200,200,200); /*dark theme*/
 }
