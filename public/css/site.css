@@ -1,135 +1,162 @@
 /* Site CSS */
-.reel h2{
+.reel h3{
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 2%;
+	margin-top: 25px;
 	/*margin-top: 40px;*/
-	color: rgb(80,80,80);
-	letter-spacing: -1px;
-	font-weight: 700;
-	font-size:30px;
+	color: rgb(40,40,40);
+	/*letter-spacing: -1p	x;*/
+	font-weight: 600;
 }
-
-.about-details{
-	padding-top:1%;
-    line-height: 0em;
+.landing-page{
+	padding-top: 20%;
 }
 .header{
 	text-align: center;
 }
-.about-details h1{
+.landing-page h1{
 	font-family: 'Montserrat',sans-serif;
-	font-size: 60px;
+	font-size: 72px;
 	/*color: rgb(80,80,80);*/
 	color: rgb(40,40,40);
-	font-weight: 400;
-	letter-spacing: -3.6px;
-	/*text-align: center;*/
+	font-weight: 500;
+	letter-spacing: -2px;
+	margin-bottom: 0px;
 }
-.sub{
-	font-family: 'Source Sans Pro', sans-serif;
-	/*color: #f2651e;*/
-	color: rgb(125,125,125);
-	font-size: 20px;
-	letter-spacing: 0.25pt;
-	/*margin-bottom: 25%;*/
+.desc h3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 16px;
 	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 5px;
+	color: rgb(80,80,80);
+}
+.social-media-main{
+    margin-top: 2%;
+    text-align: center;
+}
+.social-media-main i{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.social-media-main a{
+    color: rgb(80,80,80);
+}
+.social-media-main a:hover{
+    color: #f2651e;
+}
+.main-menu{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.main-menu a{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: rgb(80,80,80);
+}
+.main-menu a:hover{
+	color: #f2651e;
+	text-decoration: none;
+}
+.footer-main{
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    color: #808080; /*dark theme*/
+}
+.about-details h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin-top: 25px;
+	line-height: 1.5em;
 }
 .about-details p{
-	font-family: 'Source Sans Pro',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: rgb(40,40,40);
 	/*color: rgb(80,80,80);*/
 	line-height: 1.5em;
 	/*padding-top: 2%;*/
-	margin-top: 35px;
 }
 .red{
 	color: #c31014;
 }
-.me-img{
-	height: 100%;
-	width: 100%;
-}
-
 .work-list{
-	padding-top: 4%;
+	margin-top: 25px;
 }
 .proj{
 	padding-bottom: 2%;
 }
-/*.proj:hover{*/
-	/*color: #cc5519;*/
-/*}*/
 .proj-img{
 	height: 100%;
 	width: 100%;
 }
-
-.proj h3:hover{
+.proj h4:hover{
 	color: #f2651e;
 }
-.proj h3{
+.proj h4{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	letter-spacing: -0.25px;
-	color: rgb(80,80,80);
-	font-weight: 700;
+	/*letter-spacing: 0.25px;*/
+	color: rgb(40,40,40);
+	font-weight: 600;
 	line-height: 1.5pt;
 }
 .proj-details p{
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	font-weight: 400;
 	color: rgb(80,80,80);
-}
-.dev{
-	color: rgb(0,125,50);
-	background: rgb(230,255,240);
 }
 .wip{
 	font-weight: 400;
-	color: rgb(160,160,160);
+	color: rgb(80,80,80);
 	font-size: 16px;
 }
 .highlight{
-	/*color: #f2651e;*/
+	font-weight: 600;
 }
 .proj-extended-details{
-	padding-top: 2%;
+	margin-top:25px;
 }
-.proj-title h2{
+.proj-title h3{
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(80,80,80);
-	font-weight: 700;
-	letter-spacing: -1px;
-	/*font-size: 30px;*/
+	color: rgb(40,40,40);
+	font-weight: 600;
 }
 .proj-content{
 	padding-top: 1%;
 }
 .proj-content p{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: rgb(80,80,80);
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(40,40,40);
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.5;
+}
+.proj-content a{
+	color: rgb(40,40,40);
 }
 #me{
 	color: #f2651e;
 }
 #bold{
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(80,80,80);
+	color: rgb(40,40,40);
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 600;
 	/*letter-spacing: -0.25px;*/
 }
-.proj-content a{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #323232;
-}
-
 .tools{
 	height: 5%;
 	width: 5%;
@@ -154,50 +181,52 @@ a#back:hover{
 }
 
 .resume{
-	padding-top: 2%;
+	margin-top:25px;
 }
 
 a.btn-download{
 	background: white;
-	color: #323232;
+	color: rgb(40,40,40);
+	border-color: rgb(40,40,40);
 }
 a.btn-download:hover{
-	background: #f0f0f0;
-	color: #323232;
+	background: white;
+	color: rgb(40,40,40);
+	border-color: #f2651e;
 }
 
 .resume-title{
 	padding-top: 1%;
 	border-bottom: 2px solid #f2651e;
 }
-.resume-title h3{
+.resume-title h4{
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(80,80,80);
-	font-weight: 400;
-	letter-spacing: -0.5px;
+	color: rgb(40,40,40);
+	font-weight: 600;
+	letter-spacing: 0.5px;
 }
 
 .resume-block{
 	padding-top: 1%;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: rgb(80,80,80);
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(40,40,40);
+	font-size: 14px;
 	line-height: 1.5;
 }
 .italic{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: rgb(80,80,80);
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(40,40,40);
 	font-weight: 400;
 	font-style: italic;
-	font-size: 16px;
+	font-size: 14px;
 }
 .resume-dates{
 	text-align: right;
 }
 .resume-details{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: rgb(80,80,80);
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 400;
 	font-style: italic;

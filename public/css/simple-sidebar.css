@@ -56,12 +56,6 @@
 }
 
 /* Sidebar Styles */
-.logo{
-    height: 75%;
-    width: 75%;
-    padding-bottom: 10%;
-    text-align: center;
-}
 .sidebar-brand {
     padding-left: 10%; 
 }
@@ -75,7 +69,7 @@
   line-height: 1.2;
   text-align: left;
   z-index: 20;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.4px; /*title graphics developer
   /*padding-left: 25px;*/
 }
@@ -101,30 +95,28 @@
     top: 0;
     width: 250px;
     margin-top: 8%;    /*30 if separate above section*/
-    padding-top: 15%;   /*25 if separate above section*/
+    padding-top: 12%;   /*25 if separate above section*/
     padding-left: 0%;
     list-style: none;
     text-align: center;
 }
 
 .sidebar-nav li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*text-indent: 20px;*/
     line-height: 35px;
     font-weight: 400;
     text-align: left;
     padding-left: 25px;
     color: rgb(80,80,80);
-    font-size: 16pt;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: rgb(40,40,40);
-    /*color: rgb(80,80,80);*/
-    /*color: #323232; /*light theme*/
-    /*color: rgb(200,200,200); /*dark theme*/
 }
 
 .sidebar-nav li a:hover {
@@ -187,7 +179,7 @@ i{
 }
 
 .social-media{
-    padding-top: 35%; /*25% if separate about section*/
+    padding-top: 35%;
     text-align: left;
     padding-left: 10%;
 }
@@ -207,8 +199,8 @@ i{
     margin-bottom: 15%;
     text-align: left;
     padding-left: 10%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 7pt;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
     /*color: #c0c0c0;*/ /*light theme*/
     color: #808080; /*dark theme*/
 }
