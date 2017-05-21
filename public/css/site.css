@@ -32,7 +32,7 @@
 	color: rgb(80,80,80);
 }
 .social-media-main{
-    margin-top: 2%;
+	margin-top: 2%;
     text-align: center;
 }
 .social-media-main i{
@@ -233,4 +233,21 @@ a.btn-download:hover{
 }
 .skills{
 	text-align: right;
+}
+
+@media(max-width:768px) {
+	.landing-page h1{
+		font-size: 48px;
+	}
+	.social-media-main {
+		margin-top: 10%;
+	}
+}
+@media(max-height:512px){
+	.landing-page{
+		padding-top: 10%;
+	}
+	.social-media-main {
+		margin-top: 4%;
+	}
 }
