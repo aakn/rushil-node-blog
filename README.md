@@ -31,3 +31,4 @@ Getting the server up and running
     git push
     git push heroku master
     ```
+
