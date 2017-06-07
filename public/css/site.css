@@ -82,7 +82,7 @@
 }
 .about-details p{
 	font-family: 'Open Sans',sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	color: rgb(40,40,40);
 	/*color: rgb(80,80,80);*/
@@ -241,6 +241,11 @@ a.btn-download:hover{
 	}
 	.social-media-main {
 		margin-top: 10%;
+	}
+	.tools{
+		height: 8%;
+		width: 8%;
+		padding-left: 1%;
 	}
 }
 @media(max-height:512px){
