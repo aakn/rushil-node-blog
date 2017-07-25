@@ -105,12 +105,16 @@
 .proj h4:hover{
 	color: #f2651e;
 }
+.proj a:hover{
+	text-decoration: none;
+}
 .proj h4{
 	font-family: 'Montserrat', sans-serif;
 	/*letter-spacing: 0.25px;*/
 	color: rgb(40,40,40);
 	font-weight: 600;
 	line-height: 1.5pt;
+	padding-top: 2%;
 }
 .proj-details p{
 	font-family: 'Open Sans', sans-serif;
