@@ -1,24 +1,13 @@
-// Importing fonts
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500);
-@import url("/fonts/weblysleekuilight_font.css");
+// Variables
 
+// Gray and Brand Colors for use across theme
 
-// Main header
-@main-header-color:               darken(@text-color, 10%);
-@main-header-font:                'Alegreya Sans SC', 'Open Sans Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
-@main-header-font-weight:         100;
-@main-header-bg:                  darken(@body-bg, 50%);
+@theme-primary:    #2C3E50;
+@theme-success:    #18BC9C;
 
-
-// About
-@about-padding-top:               0px;
-
-
-// Project
-@project-margin-top:              5px;
-@project-margin-bottom:           10px;
-@project-thumbnail-margin-top:    21px;
-@project-thumbnail-img-margin:    3px;
-
-@close-modal-color:               @text-color;
-@close-modal-text-stroke:         lighten(@modal-backdrop-bg, 10%);
+@gray-base:        #000;
+@gray-darker:      lighten(@gray-base, 13.5%); // #222
+@gray-dark:        lighten(@gray-base, 20%);   // #333
+@gray:             lighten(@gray-base, 33.5%); // #555
+@gray-light:       lighten(@gray-base, 46.7%); // #777
+@gray-lighter:     lighten(@gray-base, 93.5%); // #eee
