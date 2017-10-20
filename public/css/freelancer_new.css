@@ -4,12 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
   letter-spacing: -0.25px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5em;
 }
 p.small {
@@ -18,8 +18,11 @@ p.small {
 p.medium{
   font-size: 14px;
 }
+p.thin{
+  font-weight: 300;
+}
 strong{
-  font-weight: 600;
+  font-weight: 400;
 }
 a,
 a:hover,
@@ -50,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   color: rgb(40,40,40);
   /*text-transform: uppercase;*/
@@ -64,7 +67,7 @@ h6.section-title{
   text-transform: uppercase;
   font-weight: 400;
   padding-bottom: 10px;
-  letter-spacing: -0.75px; 
+  letter-spacing: -0.5px; 
   /*border-bottom: 2px solid #f2651e;*/
 }
 h1.work-title,
@@ -85,7 +88,7 @@ h3.resume-title,
 h4.resume-title,
 h5.resume-title,
 h6.resume-title{
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(80,80,80);
   letter-spacing: -0.25px;
   padding-bottom: 25px;
@@ -109,9 +112,9 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-  letter-spacing: -2px;
+  letter-spacing: -1.5px;
   line-height: 1.25em;
   text-transform: none;
 }
@@ -127,7 +130,7 @@ header .intro-text .skills {
     padding-bottom: 15px;
   }
   header .intro-text .name {
-    /*font-size: 42px;*/
+    font-size: 42px;
   }
   header .intro-text .skills {
     /*font-size: 1.75em;*/
@@ -135,7 +138,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: white;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   border: none;
