@@ -7,6 +7,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
   letter-spacing: -0.25px;
+  /*background: linear-gradient(to right, #ECE9E6,#FFFFFF,#FFFFFF,#ECE9E6);*/
 }
 p {
   font-size: 16px;
@@ -37,15 +38,20 @@ a.team:focus,
 a.team:active{
   text-decoration: underline;
 }
-.page-link{
-  padding-top: 20px;
-  /*font-style: italic;*/
-  font-weight: 400;
-  color: #f2651e;
-  text-transform: uppercase;
+a.page-link:hover{
+  /*padding-top: 20px;*/
+  /*border-bottom: 6px solid #f2651e; */
+  border-bottom: 6px solid #4b6cb7;
 }
 .italics{
   font-style: italic;
+}
+.icon-small{
+  font-size: 20px;
+  padding-left: 5px;
+}
+.section-underline{
+  border-bottom: 6px solid #4b6cb7;
 }
 h1,
 h2,
@@ -64,11 +70,11 @@ h3.section-title,
 h4.section-title,
 h5.section-title,
 h6.section-title{
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 400;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   letter-spacing: -0.5px; 
-  /*border-bottom: 2px solid #f2651e;*/
+  /*border-bottom: 2px solid #4b6cb7;*/
 }
 h1.work-title,
 h2.work-title,
@@ -88,18 +94,18 @@ h3.resume-title,
 h4.resume-title,
 h5.resume-title,
 h6.resume-title{
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(80,80,80);
   letter-spacing: -0.25px;
   padding-bottom: 25px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: white;
+  /*background: white;*/
   color: rgb(40,40,40);
 }
 header .container {
@@ -138,6 +144,8 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: white;
+  /*background: linear-gradient(to right, #ECE9E6,#FFFFFF,#FFFFFF,#ECE9E6);*/
+  /*background: transparent;*/
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -200,12 +208,13 @@ header .intro-text .skills {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    /*border: 4px solid rgb(80,80,80);*/
   }
   .navbar-custom.affix {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
   }
   .role{
     font-size: 10px;
@@ -223,11 +232,11 @@ section {
 }
 section h2 {
   margin: 0;
-  font-size: 2.5em;
+  /*font-size: 2.5em;*/
   padding-bottom: 50px;
 }
 section.success {
-  background: white;
+  /*background: white;*/
   color: rgb(40,40,40);
 }
 section#project-header{
@@ -369,6 +378,8 @@ footer h3 {
 footer .footer-above {
   padding-top: 25px;
   background: white;
+  /*background: linear-gradient(to right, #ECE9E6,#FFFFFF,#FFFFFF,#ECE9E6);*/
+  /*background: transparent;*/
 }
 footer .footer-col {
   margin-bottom: 25px;
@@ -376,6 +387,7 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background: white;
+  /*background: linear-gradient(to right, #ECE9E6,#FFFFFF,#FFFFFF,#ECE9E6);*/
 }
 .btn-outline {
   color: rgb(120,120,120);
