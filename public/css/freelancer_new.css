@@ -6,11 +6,11 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   overflow-x: hidden;
-  /*letter-spacing: -0.25px;*/
 }
 p {
   font-size: 16px;
   line-height: 1.5em;
+  color: rgb(40,40,40);
 }
 p.small {
   font-size: 12px;
@@ -26,8 +26,9 @@ strong{
 }
 strong.content{
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 4px;
+  color: rgb(80,80,80);
 }
 a,
 a:hover,
@@ -48,6 +49,7 @@ a.page-link:hover{
   border-bottom: 6px solid #4b6cb7;
 }
 a.link{
+  color: rgb(40,40,40);
   border-bottom: 3px solid #4b6cb7;
 }
 a.link:hover{
@@ -96,7 +98,8 @@ h6.work-title{
   padding-top: 10px;
   line-height: 0.25em;
   letter-spacing: -0.25px;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
+  color: rgb(80,80,80);
 }
 h1.resume-title,
 h2.resume-title,
