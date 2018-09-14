@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -26,7 +26,6 @@ strong{
 }
 strong.content{
   font-weight: 700;
-  /*text-transform: uppercase;*/
   padding: 4px;
   color: rgb(80,80,80);
 }
@@ -72,10 +71,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   color: rgb(40,40,40);
-  /*text-transform: uppercase;*/
+}
+h1.subtitle{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 0px;
+  padding-bottom: 50px;
 }
 h1.section-title,
 h2.section-title,
@@ -83,9 +87,7 @@ h3.section-title,
 h4.section-title,
 h5.section-title,
 h6.section-title{
-  font-weight: 300;
   padding-bottom: 25px;
-  letter-spacing: -0.5px; 
   text-align: right;
 }
 h1.work-title,
@@ -94,11 +96,8 @@ h3.work-title,
 h4.work-title,
 h5.work-title,
 h6.work-title{
-  font-weight: 700;
   padding-top: 10px;
   line-height: 0.25em;
-  letter-spacing: -0.25px;
-  text-transform: uppercase;
   color: rgb(80,80,80);
 }
 h1.resume-title,
@@ -109,7 +108,6 @@ h5.resume-title,
 h6.resume-title{
   font-weight: 400;
   color: rgb(80,80,80);
-  letter-spacing: -0.25px;
   padding-bottom: 25px;
   /*text-transform: uppercase;*/
 }
@@ -119,9 +117,7 @@ h3.link,
 h4.link,
 h5.link,
 h6.link{
-  font-weight: 700;
   color: rgb(80,80,80);
-  letter-spacing: -0.25px;
   padding-top: 15px;
   padding-bottom: 25px;
   text-transform: uppercase;
@@ -134,7 +130,7 @@ h5.latest-title,
 h6.latest-title{
   font-weight: 700;
   color: rgb(80,80,80);
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .img-centered {
   margin: 0 auto;
@@ -154,10 +150,13 @@ h6.latest-title{
 .project {
   padding-bottom: 25px;
 }
-.tools{
+ul.tools{
+  display: flex;
+  list-style: none;
   padding: 4px;
 }
-.tool-name{
+li.tool-name{
+  font-size: 12px;
   margin-right: 4px; 
   padding: 2px;
   padding-left: 8px;
@@ -176,46 +175,28 @@ header {
   text-align: center;
   color: rgb(40,40,40);
 }
-header .container {
-  padding-top: 200px;
-  padding-bottom: 50px;
-}
-header img {
+header .intro-text .name{
   display: block;
-  margin: 0 auto 20px;
-}
-header .intro-text .name {
-  display: block;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  letter-spacing: -1.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   line-height: 1.25em;
-  text-transform: none;
-  padding-bottom: 50px;
 }
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-  /*text-transform: uppercase;*/
-  letter-spacing: -1.5px;
-}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 100px;
     padding-bottom: 15px;
   }
   header .intro-text .name {
-    font-size: 44px;
+    font-size: 80px;
   }
-  header .intro-text .skills {
-    /*font-size: 1.75em;*/
+  header .page-title .name{
+    font-size: 40px;
   }
 }
 .navbar-custom {
   background: white;
-  /*background: linear-gradient(to right, #ECE9E6,#FFFFFF,#FFFFFF,#ECE9E6);*/
-  /*background: transparent;*/
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   border: none;
@@ -307,6 +288,9 @@ section h2 {
 section.success {
   /*background: white;*/
   color: rgb(40,40,40);
+}
+section.alt{
+  background: rgb(250,250,250);
 }
 section#project-header{
   padding-top: 100px;
