@@ -308,8 +308,14 @@ section#project-header{
 #coursework{
   padding-top: 25px;
 }
+.resume-head{
+  padding-top: 30px;
+}
 #resume{
   text-align: center;
+}
+.resume-img{
+  max-width: 100%;
 }
 .video{
   padding-bottom: 50px;
