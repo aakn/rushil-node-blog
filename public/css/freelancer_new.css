@@ -141,7 +141,7 @@ h6.latest-title{
   padding-bottom: 25px;
 }
 .project {
-  padding-bottom: 25px;
+  padding-bottom: 5px;
 }
 ul.tools{
   display: flex;
@@ -307,6 +307,9 @@ section#project-header{
 #add-experience,
 #coursework{
   padding-top: 25px;
+}
+.skill-list{
+  padding-right: 50px;
 }
 .resume-head{
   padding-top: 30px;
