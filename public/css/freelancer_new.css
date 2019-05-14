@@ -8,12 +8,16 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5em;
   color: rgb(40,40,40);
+  font-weight: 300;
 }
 p.small {
   font-size: 12px;
+}
+p.description{
+  font-size: 16px;
 }
 p.thin{
   font-weight: 300;
@@ -65,12 +69,12 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: rgb(40,40,40);
 }
 h1.subtitle{
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 0px;
   padding-bottom: 50px;
 }
@@ -92,6 +96,7 @@ h6.work-title{
   padding-top: 10px;
   line-height: 0.25em;
   color: rgb(80,80,80);
+  font-weight: 400;
 }
 h1.resume-title,
 h2.resume-title,
@@ -114,6 +119,7 @@ h6.link{
   padding-top: 15px;
   padding-bottom: 25px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 h1.latest-title,
 h2.latest-title,
