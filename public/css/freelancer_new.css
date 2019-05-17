@@ -24,7 +24,7 @@ p.thin{
 }
 strong.content{
   font-weight: 700;
-  color: rgb(80,80,80);
+  color: rgb(80, 80, 80);
 }
 a,
 a:hover,
@@ -40,8 +40,6 @@ a.team:active{
   text-decoration: underline;
 }
 a.page-link:hover{
-  /*padding-top: 20px;*/
-  /*border-bottom: 6px solid #f2651e; */
   border-bottom: 6px solid #4b6cb7;
 }
 a.link{
@@ -127,16 +125,21 @@ h3.latest-title,
 h4.latest-title,
 h5.latest-title,
 h6.latest-title{
-  font-weight: 700;
+  font-weight: 400;
   color: rgb(80,80,80);
-  /*text-transform: uppercase;*/
+  /* padding-top:10px; */
+}
+.box-list {
+  padding-top:10px;
+  padding-bottom:20px;
+  border-bottom: solid 1px rgb(200,200,200);
 }
 .img-centered {
   margin: 0 auto;
 }
 .section-content {
   padding-top: 20px;
-  padding-left: 25px;
+  /* padding-left: 25px; */
 }
 @media(max-width: 768px) {
   h1.section-title {
@@ -193,11 +196,26 @@ header .intro-text .name{
     font-size: 48px;
   }
 }
+@media(max-width: 425px){
+  h1.name {
+    font-size: 64px;
+    padding-top: 75px;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  .subtitle{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 5px;
+  }
+}
 .navbar-custom {
-  background: white;
+  /* background: white; */
+  background: rgb(240,240,240);
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   border: none;
 }
 .navbar-custom .navbar-brand {
@@ -233,10 +251,10 @@ header .intro-text .name{
   background: #18BC9C;
 }
 .navbar-custom .navbar-toggle {
-  color: rgb(120,120,120);
+  color: rgb(80,80,80);
   text-transform: uppercase;
-  font-size: 10px;
-  border-color: white;
+  font-size: 6px;
+  border-color: rgb(80,80,80);
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
@@ -246,30 +264,23 @@ header .intro-text .name{
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 10px 0;
+    padding: 0px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    /*border: 4px solid rgb(80,80,80);*/
   }
   .navbar-custom.affix {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
     /*font-size: 1.5em;*/
-  }
-  .role{
-    font-size: 10px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    line-height: 1.2;
   }
 }
 .borderline{
@@ -302,10 +313,6 @@ section#project-header{
   section.first {
     padding-top: 75px;
   }
-}
-.about,
-.work-list{
-  /*padding-top: 25px;*/
 }
 #education,
 #skills,
