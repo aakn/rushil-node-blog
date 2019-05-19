@@ -250,16 +250,16 @@ header .intro-text .name{
   background: #18BC9C;
 }
 .navbar-custom .navbar-toggle {
-  color: rgb(80,80,80);
+  color: rgb(212, 212, 212);
   text-transform: uppercase;
   font-size: 6px;
-  border-color: rgb(80,80,80);
+  border-color: rgb(212, 212, 212);
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: transparent;
-  color: rgb(40,40,40);
-  border-color: rgb(40,40,40);
+  color: rgb(184, 184, 184);
+  border-color: rgb(184, 184, 184);
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -285,11 +285,9 @@ section {
 }
 section h2 {
   margin: 0;
-  /*font-size: 2.5em;*/
   padding-bottom: 50px;
 }
 section.success {
-  /*background: white;*/
   color: rgb(40,40,40);
 }
 section.alt{
@@ -297,7 +295,6 @@ section.alt{
 }
 section#project-header{
   padding-top: 100px;
-  /*padding-bottom: 0px;*/
 }
 @media (max-width: 767px) {
   section {
