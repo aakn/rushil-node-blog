@@ -211,7 +211,7 @@ header .intro-text .name{
   }
 }
 .navbar-custom {
-  background: rgb(48, 48, 48);
+  background: rgba(48, 48, 48, 0.98);
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
