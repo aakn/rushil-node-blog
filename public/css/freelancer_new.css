@@ -146,11 +146,29 @@ h6.latest-title{
     text-align: left;
   }
 }
-.job{
+.job {
   padding-bottom: 25px;
 }
 .project {
   padding-bottom: 5px;
+}
+.work-row{
+  display: flex;
+}
+.work-item{
+  position: relative;
+  padding: 10px;
+}
+.work-item:hover{
+  background: rgba(240, 240, 240, 0.8);
+}
+.work-item .work-link{
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 ul.tools{
   display: flex;
