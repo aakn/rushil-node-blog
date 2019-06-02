@@ -154,6 +154,7 @@ h6.latest-title{
 }
 .work-row{
   display: flex;
+  flex-wrap: wrap;
 }
 .work-item{
   position: relative;
