@@ -24,7 +24,15 @@ p.thin{
 }
 strong.content{
   font-weight: 700;
-  color: rgb(80, 80, 80);
+  /* color: rgb(80, 80, 80); */
+  color: #4b6cb7;
+}
+span.liverpool {
+  font-weight: 400;
+  background: rgb(200, 16, 46);
+  color: rgb(248, 248, 248);
+  padding-left: 4px;
+  padding-right: 4px;
 }
 a,
 a:hover,
@@ -85,7 +93,6 @@ h5.section-title,
 h6.section-title{
   padding-bottom: 25px;
   text-align: right;
-  color: rgb(40,40,40);
 }
 h1.work-title,
 h2.work-title,
@@ -95,7 +102,7 @@ h5.work-title,
 h6.work-title{
   padding-top: 10px;
   line-height: 0.25em;
-  color: rgb(80,80,80);
+  /* color: rgb(80,80,80); */
   font-weight: 400;
 }
 h1.resume-title,
@@ -128,8 +135,13 @@ h4.latest-title,
 h5.latest-title,
 h6.latest-title{
   font-weight: 400;
-  color: rgb(80,80,80);
+  color: #4b6cb7;
   /* padding-top:10px; */
+}
+span.section-text {
+  background: rgb(48, 48, 48);
+  color: rgb(255, 255, 255);
+  padding: 8px;
 }
 .box-list {
   padding-top:10px;
@@ -196,8 +208,6 @@ p.work-desc{
 }
 header {
   text-align: center;
-  /* color: rgb(40,40,40); */
-  /* background: rgb(20,20,20); */
 }
 header .intro-text .name{
   display: block;
@@ -208,7 +218,25 @@ header .intro-text .name{
 header .intro-text .subtitle {
   font-weight: 400;
 }
-
+span.highlight-green{
+  background: #55E6C1;
+}
+span.highlight-green-padded{
+  background: #55E6C1;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+span.highlight-black{
+  background: rgb(48, 48, 48);
+  color: rgb(255, 255, 255);
+  padding: 2px 8px 2px 8px;
+}
+span.highlight-blue{
+  background: #4b6cb7;
+  color: rgb(248, 248, 248);
+  padding-left: 4px;
+  padding-right: 4px;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 100px;
@@ -233,6 +261,9 @@ header .intro-text .subtitle {
     text-align: left;
     font-size: 30px;
     padding-left: 5px;
+  }
+  h1.section-title{
+    font-size: 28px;
   }
 }
 .navbar-custom {
