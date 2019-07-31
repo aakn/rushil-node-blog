@@ -24,8 +24,7 @@ p.thin{
 }
 strong.content{
   font-weight: 700;
-  /* color: rgb(80, 80, 80); */
-  color: #4b6cb7;
+  color: rgb(80, 80, 80);
 }
 span.liverpool {
   font-weight: 400;
@@ -141,7 +140,7 @@ h6.latest-title{
 span.section-text {
   background: rgb(48, 48, 48);
   color: rgb(255, 255, 255);
-  padding: 8px;
+  padding: 2px 8px 2px 8px;
 }
 .box-list {
   padding-top:10px;
