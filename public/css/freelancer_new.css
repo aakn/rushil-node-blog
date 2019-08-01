@@ -269,6 +269,12 @@ span.highlight-blue{
   h1.section-title{
     font-size: 28px;
   }
+  header .page-title{
+    padding-top: 100px;
+  }
+  .project-title{
+    text-align: left;
+  }
 }
 .navbar-custom {
   background: rgba(48, 48, 48, 0.98);
