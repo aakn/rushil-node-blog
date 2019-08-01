@@ -82,6 +82,9 @@ h1.subtitle{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 0px;
+  /* padding-bottom: 50px; */
+}
+header .intro-text {
   padding-bottom: 50px;
 }
 h1.section-title,
@@ -206,6 +209,9 @@ p.work-desc{
 }
 header {
   text-align: center;
+}
+header .page-title {
+  padding-top: 20px;
 }
 header .intro-text .name{
   display: block;
