@@ -8,10 +8,10 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5em;
   color: rgb(40,40,40);
-  font-weight: 300;
+  font-weight: 400;
 }
 p.small {
   font-size: 12px;
@@ -101,7 +101,6 @@ h5.work-title,
 h6.work-title{
   padding-top: 10px;
   line-height: 0.25em;
-  /* color: rgb(80,80,80); */
   font-weight: 400;
 }
 h1.resume-title,
@@ -140,7 +139,7 @@ h6.latest-title{
 span.section-text {
   background: rgb(48, 48, 48);
   color: rgb(255, 255, 255);
-  padding: 2px 8px 2px 8px;
+  padding: 0px 8px 0px 8px;
 }
 .box-list {
   padding-top:10px;
@@ -228,7 +227,7 @@ span.highlight-green-padded{
 span.highlight-black{
   background: rgb(48, 48, 48);
   color: rgb(255, 255, 255);
-  padding: 2px 8px 2px 8px;
+  padding: 0px 8px 0px 8px;
 }
 span.highlight-blue{
   background: #4b6cb7;
@@ -273,9 +272,9 @@ span.highlight-blue{
   border: none;
 }
 .navbar-custom .navbar-brand {
-  font-family: 'Fira Mono', monospace;
-  font-weight: 500;
-  letter-spacing: -1px;
+  font-family: 'Montserrat', monospace;
+  font-weight: 600;
+  /* letter-spacing: -1px; */
   text-transform: none;
   color: rgb(248, 248, 248);
 }
