@@ -284,8 +284,8 @@ span.highlight-blue{
   border: none;
 }
 .navbar-custom .navbar-brand {
-  font-family: 'Montserrat', monospace;
-  font-weight: 600;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 400;
   /* letter-spacing: -1px; */
   text-transform: none;
   color: rgb(248, 248, 248);
@@ -337,7 +337,7 @@ span.highlight-blue{
   }
   .navbar-custom .navbar-brand {
     /* font-weight: 700; */
-    font-size: 1.5em;
+    font-size: 24pt;
   }
   .navbar-custom.affix {
     padding: 10px 0;
@@ -385,6 +385,10 @@ section#project-header{
   }
   section.first {
     padding-top: 75px;
+  }
+  .navbar-custom .navbar-brand {
+    /* font-weight: 700; */
+    font-size: 24pt;
   }
 }
 #education,
