@@ -151,7 +151,7 @@ span.section-text {
 }
 .box-list {
   padding-top:10px;
-  padding-bottom:20px;
+  padding-bottom:10px;
   border-bottom: solid 1px rgb(200,200,200);
 }
 .img-centered {
@@ -760,4 +760,21 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+ul.skills {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: rgb(40,40,40);
+  font-weight: 400;
+}
+.list-inline {
+  list-style: none;
+  padding:0;
+}
+.list-inline > li {
+  display: inline;
+}
+.list-pipe > li:not(:last-child)::after {
+  content: '|';
+  padding-left: 10px;
 }
