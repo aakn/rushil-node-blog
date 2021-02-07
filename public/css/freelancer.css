@@ -367,8 +367,9 @@ span.highlight-blue {
     background: rgba(48, 48, 48, 0.98);
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial,
         sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    font-size: 16px;
     border: none;
 }
 .navbar-custom .navbar-brand {
@@ -424,7 +425,7 @@ span.highlight-blue {
         padding: 0px 0;
     }
     .navbar-custom .navbar-brand {
-        font-size: 14pt;
+        font-size: 18px;
     }
     .navbar-custom.affix {
         padding: 10px 0;
