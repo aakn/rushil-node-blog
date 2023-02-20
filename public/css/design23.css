@@ -1,0 +1,86 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  max-width: 750px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+strong.content {
+  font-weight: 600;
+  color: royalblue;
+  font-size: 16px;
+}
+
+span.liverpool {
+  font-weight: 600;
+  color: rgb(200, 16, 46);
+}
+
+span.highlight {
+  background-color: #FFEF9E;
+  padding: 5px;
+  margin-left: -5px;
+}
+
+.welcome-box {
+  padding-top: 10vh;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.welcome-hello {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: -0.25px;
+}
+
+.welcome-sub {
+  letter-spacing: -0.25px;
+  line-height: 1.2em;
+}
+
+.about-home {
+  padding-top: 20px;
+}
+
+.page-head-title {
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  padding-bottom: 10px;
+}
+
+.glyphicon {
+  color: royalblue;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #FFEF9E;
+}
+
+a.social {
+  padding: 2px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: rgb(120, 120, 120);
+}
